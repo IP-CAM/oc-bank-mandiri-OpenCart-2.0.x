@@ -22,7 +22,7 @@ class ControllerPaymentBankMandiri extends Controller {
     }
 
     public function confirm() {
-        if ($this->session->data['payment_method']['code'] == 'bank_transfer') {
+        if ($this->session->data['payment_method']['code'] == 'bank_mandiri') {
             $this->language->load('payment/bank_mandiri');
 
             $this->load->model('checkout/order');
