@@ -6,6 +6,9 @@ $_['heading_title']      = 'Bank Mandiri';
 $_['text_payment']       = 'Pembayaran';
 $_['text_success']       = 'Berhasil: Anda telah merubah pembayaran bank mandiri!';
 $_['text_edit']          = 'Edit Bank Mandiri';
+$_['text_enabled']       = 'Diaktifkan';
+$_['text_disabled']      = 'Nonaktif';
+$_['text_all_zones']     = 'Semua Wilayah';
 $_['text_bank_mandiri']  = '<a onclick="window.open(\'http://www.bankmandiri.co.id/\');"><img src="view/image/payment/bank_mandiri.png" alt="Bank Mandiri" title="Bank Mandiri" /></a>';
 
 // Entry
