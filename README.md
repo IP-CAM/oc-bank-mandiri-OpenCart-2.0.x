@@ -5,7 +5,7 @@ OpenCart - Bank Mandiri ![logo]
 
 [OpenCart](http://opencart.com/) Extension for payment method. Bank Mandiri is the one of bank from Indonesia.
 
-Compatible with OpenCart 2.0.0.0 ONLY.
+Tested with OpenCart 2.0.0.0 ONLY.
 
 ### FEATURES
 
