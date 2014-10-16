@@ -28,6 +28,7 @@ class ControllerPaymentBankMandiri extends Controller {
             $this->load->model('checkout/order');
 
             $comment  = $this->language->get('text_instruction') . "\n\n";
+            $comment .= $this->config->get('bank_mandiri_term_' . $this->config->get('config_language_id')) . "\n\n";
             $comment .= $this->config->get('bank_mandiri_bank_' . $this->config->get('config_language_id')) . "\n\n";
             $comment .= $this->language->get('text_payment');
 
